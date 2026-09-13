@@ -267,7 +267,7 @@
     } else if (compareUnitPrice < unitPrice && diff < 0) {
       compareDiffEl.textContent = '現在の客単価より ' + fmt(unitPrice - compareUnitPrice) + ' 円下げると、必要客数が ' + fmt(-diff) + ' 人増えます。';
     } else {
-      compareDiffEl.textContent = '現在の客単価と同じ金額のため、必要客数は変わりません。';
+      compareDiffEl.textContent = '客単価を変えても、必要客数は変わりません（端数の切り上げにより同数になっています）。';
     }
     compareResult.classList.remove('hidden');
   }
