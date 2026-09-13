@@ -10,7 +10,7 @@
 ## 解決する困りごと
 
 - 想定利用者: 月商目標を立てたい店舗・サロン・教室の事業者
-- 困りごと: 「今月◯◯円を売り上げたい」という目標はあっても、そのために毎日何人のお客さんが必要かが分からない
+- 困りごと: 売上目標はあるが、必要な客数が分からない
 - 解決方法: 目標額・客単価・営業日数を入れるだけで、必要客数と1日あたりの客数を自動計算し、客単価を上げた場合との比較も出す
 
 ## 使い方
@@ -31,14 +31,14 @@
 - フレームワーク: なし
 - API: なし
 - データベース: なし（localStorageも使用しない）
-- デプロイ: GitHub Pages（未公開）
+- デプロイ: GitHub Pages（公開）
 
 ## リンク
 
-- GitHub: 未公開
-- デモ: 未公開
-- 公開状態: 未公開
-- 開発ログ: `../../logs/day-038-2026-09-14.md`
+- GitHub: https://github.com/nncf123nncf-oss/uriage-mokuhyou-gyakusan
+- デモ: https://nncf123nncf-oss.github.io/uriage-mokuhyou-gyakusan/
+- 公開状態: 公開
+- 開発ログ: shiftai-elite-agents-sns-operationリポジトリ `work/100days/logs/day-038-2026-09-14.md`
 
 ## スクリーンショット
 
